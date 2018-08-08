@@ -1,0 +1,15 @@
+<h6 class="text-center">Person Register</h6><br/>
+<table class="table table-sm table-hover">
+  <tr *ngFor="let person of personList">
+      <td>{{person.name}}</td>
+      <td>{{person.position}}</td>
+      <td>
+        <a class="btn" (click)="onEdit(person)">
+          <i class="fa fa-pencil-square-o"></i>
+        </a>
+        <a class="btn" (click)="onDelete(person.$key)">
+          <i class="fa fa-trash-o"></i>
+        </a>
+      </td>
+  </tr>
+</table>
