@@ -5,8 +5,7 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-person-list',
   templateUrl: './person-list.component.html',
-  styleUrls: ['./person-list.component.css'],
-  providers:[PersonService]
+  styleUrls: ['./person-list.component.css']
 })
 export class PersonListComponent implements OnInit {
   personList: Person[] = [];
