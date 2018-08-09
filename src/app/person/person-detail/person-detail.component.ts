@@ -6,8 +6,7 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-person-detail',
   templateUrl: './person-detail.component.html',
-  styleUrls: ['./person-detail.component.css'],
-  providers:[PersonService]
+  styleUrls: ['./person-detail.component.css']
 })
 export class PersonDetailComponent implements OnInit {
 
